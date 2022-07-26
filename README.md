@@ -1,27 +1,56 @@
-# Zerowaste
+<p align="center">
+  <img src="https://i.imgur.com/BunGUFa.png">
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+# Zero Waste
 
-## Development server
+Plataforma desenvolvida no bootcamp da Generation Brasil, visando proposta de resolução para a ODS ONU: Fome Zero e Agricultura Sustentável.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O [Back-end](https://github.com/cami-codes/BackZeroWaste) foi desenvolvido a partir do framework Spring Boot.
 
-## Code scaffolding
+## Objetivo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Muitos alimentos são desperdiçados em cozinhas industriais, ou não conseguem chegar na mesa de quem precisa, por uma falha de comunicação entre os envolvidos e o curto prazo de validade desses produtos.
+A [Zero Waste](https://zerowasteg.netlify.app/)  é uma plataforma voltada para a responsabilidade social, embasada na sustentabilidade. Ao publicar uma doação, a pessoa física ou jurídica estará comunicando para ONGs e Associações de moradores cadastrados sua intenção de destinar o alimento a quem precisa, antes que estrague. Voluntários também poderão fazer o transporte da comida para que chegue o mais rápido possível ao local de destino.
 
-## Build
+## Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Opção de cadastro como ONG ou Doador/Empresa.
+- Carrossel de notícias.
+- Página de postagens, onde podemos realizar uma nova postagem ou cadastrar um tema. Também podemos ver todas as nossas postagens e editar ou apagá-la.
+- Aba de equipe com uma breve descrição sobre cada integrante, com link para o LinkedIN e Github.
+- Se o usuário possuir alguma dúvida ou sugestão, ele poderá ir até nossa página de contato e preencher o formulário, onde poderá informar um erro na plataforma ou também incentivar o financiamento do projeto.
 
-## Running unit tests
+## Implementações futuras que já estão sendo desenvolvidas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Filtro por data;
+- Método de curtir;
+- Inserir comentários;
+- Anexar arquivo local (máquina do usuário).
+- Funcionalidade da página Trabalhe Conosco.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Rodar o projeto localmente
 
-## Further help
+Clone o projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+  git clone https://github.com/Projeto-Integrador-Zero-Waste/Frontend
+```
+
+Em seu editor, abra o terminal e digite o comando abaixo para instalar os módulos necessários.
+
+```bash
+  npm install
+```
+
+Inicie o projeto através do comando abaixo e ele será inicializado no `http://localhost:4200/`.
+
+```bash
+  ng serve
+```
+
+
+## Deploy no Netlify
+
+[Zero Waste](https://zerowasteg.netlify.app/)
