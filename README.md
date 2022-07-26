@@ -50,7 +50,16 @@ Inicie o projeto através do comando abaixo e ele será inicializado no `http://
   ng serve
 ```
 
-
 ## Deploy no Netlify
 
 [Zero Waste](https://zerowasteg.netlify.app/)
+
+## Equipe
+
+- [@BeatrizCanuto](https://github.com/BeatrizCanuto)
+- [@cami-codes](https://github.com/cami-codes)
+- [@EduardoChicarolli](https://github.com/EduardoChicarolli)
+- [@giomelods](https://github.com/giomelods)
+- [@Henrique-MB](https://github.com/Henrique-MB)
+- [@renanbaratella](https://github.com/renanbaratella)
+- [@Wanleyrooby](https://github.com/Wanleyrooby)
